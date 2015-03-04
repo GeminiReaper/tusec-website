@@ -4,7 +4,6 @@
 @white: #FFFFFF;
 @blue: #ACCFCC;
 @red: #8A0917;
-
 html {
     height: 100%;
     width: 100%;
@@ -36,11 +35,49 @@ html {
         footer {
             position: absolute;
             bottom: 0px;
-            background-color: @dark-gray;
+            background-color: black;
             color: white;
-            height: 35px;
             width: 100%;
             text-align: center;
+            font-weight: 300;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            #heart-icon {
+                background-image: url(/static/img/ic_favorite_outline_24px.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                padding: 0px 4px;
+                width: 18px;
+                height: 20px;
+                display: inline-block;
+                position: relative;
+                opacity: 0.9;
+                top: 4px;
+                @media (max-width: 320px) {
+                    padding: 0px 14px;
+                    width: 16px;
+                    height: 18px;
+                }
+            }
+            #tusec-icon {
+                background-image: url(/static/img/icon-tusec.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                padding: 0px 4px;
+                width: 18px;
+                height: 20px;
+                display: inline-block;
+                position: relative;
+                opacity: 0.9;
+                top: 4px;
+                @media (max-width: 320px) {
+                    padding: 0px 14px;
+                    width: 16px;
+                    height: 18px;
+                }
+            }
         }
     }
 }
