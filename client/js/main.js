@@ -13,7 +13,7 @@ var Route           = Router.Route,
 var NotFound        = require('./components/404');
 // Publicly accessible page components
 var Public          = require('./components/public'),
-    Home            = require('./components/public/home');
+    Home            = require('./components/public/home/home');
 
 // Authentication-required page components
 // TODO make the internal pages a thing
