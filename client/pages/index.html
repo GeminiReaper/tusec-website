@@ -1,17 +1,34 @@
 <!DOCTYPE>
 <html>
+
 <head>
-	<title>
-		Temple TUSec
-	</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <title>
+        Temple TUSec
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/static/main.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
-    <script src="/static/js/main.js" type="text/javascript"></script>
+    <header>
+        <h1>TUSec</h1>
+    </header>
+    <main>
+        <div id="about" className="section">
+            <a href="register" target="_blank">
+                <button> Register </button>
+            </a>
+        </div>
+        <div id="calendar" className="section">
+            <iframe src="https://www.google.com/calendar/embed?src=a8bht391sjjnfodbmjbpvt6ngo%40group.calendar.google.com&ctz=America/New_York" width="800" height="600" bgcolor="#BD8D46" frameBorder="0" scrolling="no"></iframe>
+        </div>
+        <div id="faq" className="section">faq</div>
+    </main>
+    <footer>
+        <span>Made with</span><span id="heart-icon"></span><span>by</span><span id="tusec-icon"></span><span>in Philadelphia</span>
+    </footer>
 </body>
+
 </html>
