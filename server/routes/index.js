@@ -30,9 +30,15 @@ exports.route = function(app, callback) {
                         res.sendFile(path.join(__dirname, '..', '..', 'dist', 'pages', 'index.html'));
 
                     });
+                    // register page route
+                    log.debug('Loading register page route');
+                    app.get('/register', function(req, res) {
+                        res.sendFile(path.join(__dirname, '..', '..', 'dist', 'pages', 'register.html'));
+
+                    });
                     // 404 page route
                     log.debug('Loading 404 page route');
-                    app.get('/', function(req, res) {
+                    app.get('/*', function(req, res) {
                         res.sendFile(path.join(__dirname, '..', '..', 'dist', 'pages', '404.html'));
 
                     });

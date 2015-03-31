@@ -1,0 +1,4 @@
+The purpose of this organization shall be to gather a growing group of students interested in the IT security field. By incorporating various interactive workshops, guess speaker lectures, and capture-the flag-events, students will have many takeaways with each semester. Workshops will allow for a skilled-student to demonstrate new concepts while guest speakers will contribute with real world experience. By attending and even hosting capture-the-flag events, students can test their knowledge and get even more hands-on experience. With the growing number of students becoming interested in this field, TUsec will be a great start for the beginner and the advanced.
+
+Mark Rossmair [2:05 PM]
+To raise awareness and to educate students interested in the IT security field through interactive workshops and profession guest speakers.
